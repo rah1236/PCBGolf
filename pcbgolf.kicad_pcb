@@ -22040,7 +22040,7 @@
 				)
 			)
 		)
-		(property "Value" "NCS20071XV"
+		(property "Value" "OPA197IDR"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22052,7 +22052,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22063,7 +22063,7 @@
 				)
 			)
 		)
-		(property "Description" "Single, 2.8V/µs, Rail-to-Rail Output, SOT-553"
+		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22086,7 +22086,7 @@
 				)
 			)
 		)
-		(property "MPN" "NCS20071SN2T1G"
+		(property "MPN" "OPA197IDR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22098,7 +22098,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SOT?553*")
+		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/64373cce-58a8-483d-8973-13139e001456")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
@@ -22324,9 +22324,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U10-+)")
-			(pinfunction "+_1")
-			(pintype "input")
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "e8a062e9-27dc-4211-9eef-a538c9c191af")
 		)
 		(pad "2" smd roundrect
@@ -22334,9 +22333,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
-			(pinfunction "V-_2")
-			(pintype "power_in")
+			(net "Net-(U10--)")
+			(pinfunction "-")
+			(pintype "input")
 			(uuid "7ee4d8b0-741e-44e1-9c78-5bdddd1410a0")
 		)
 		(pad "3" smd roundrect
@@ -22344,8 +22343,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U10--)")
-			(pinfunction "-_3")
+			(net "Net-(U10-+)")
+			(pinfunction "+")
 			(pintype "input")
 			(uuid "e493d802-d0d8-4fea-8df4-37db3396d5db")
 		)
@@ -22354,8 +22353,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(R63-Pad1)")
-			(pintype "output")
+			(net "GND")
+			(pinfunction "V-")
+			(pintype "power_in")
 			(uuid "e47d8e76-4330-4c12-b3e3-747d3477ee2b")
 		)
 		(pad "5" smd roundrect
@@ -22363,9 +22363,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+12V")
-			(pinfunction "V+_5")
-			(pintype "power_in")
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "d876ce8e-133e-456a-9f02-7dc295609190")
 		)
 		(pad "6" smd roundrect
@@ -22373,6 +22372,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
+			(net "Net-(R63-Pad1)")
+			(pintype "output")
 			(uuid "3cb43317-06a1-478a-ba76-cab4e6555ebb")
 		)
 		(pad "7" smd roundrect
@@ -22380,6 +22381,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
+			(net "+12V")
+			(pinfunction "V+")
+			(pintype "power_in")
 			(uuid "ec256c8a-5dd8-4a9f-afc7-82043abc33a5")
 		)
 		(pad "8" smd roundrect
@@ -22387,6 +22391,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "3556783d-eda6-43ad-b47d-049f35b9df3c")
 		)
 		(embedded_fonts no)
@@ -35421,7 +35427,7 @@
 				)
 			)
 		)
-		(property "Value" "NCS20071XV"
+		(property "Value" "OPA197IDR"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35433,7 +35439,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35444,7 +35450,7 @@
 				)
 			)
 		)
-		(property "Description" "Single, 2.8V/µs, Rail-to-Rail Output, SOT-553"
+		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35467,7 +35473,7 @@
 				)
 			)
 		)
-		(property "MPN" "NCS20071SN2T1G"
+		(property "MPN" "OPA197IDR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35479,7 +35485,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SOT?553*")
+		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/4cc3113a-1d45-4f00-a401-732e5301a5cd")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
@@ -35705,9 +35711,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U11-+)")
-			(pinfunction "+_1")
-			(pintype "input")
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "4f6b8b87-b127-47a2-bca6-94752fe9b44c")
 		)
 		(pad "2" smd roundrect
@@ -35715,9 +35720,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
-			(pinfunction "V-_2")
-			(pintype "power_in")
+			(net "Net-(U11--)")
+			(pinfunction "-")
+			(pintype "input")
 			(uuid "fb01f344-7f27-4cbe-97df-458a0cd27bc1")
 		)
 		(pad "3" smd roundrect
@@ -35725,8 +35730,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U11--)")
-			(pinfunction "-_3")
+			(net "Net-(U11-+)")
+			(pinfunction "+")
 			(pintype "input")
 			(uuid "4a0120e9-9427-41de-8ece-72b21e4ac36d")
 		)
@@ -35735,8 +35740,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(R64-Pad1)")
-			(pintype "output")
+			(net "GND")
+			(pinfunction "V-")
+			(pintype "power_in")
 			(uuid "a6a25d1e-0d2a-4e13-8379-616c41deb295")
 		)
 		(pad "5" smd roundrect
@@ -35744,9 +35750,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+12V")
-			(pinfunction "V+_5")
-			(pintype "power_in")
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "3b1a916a-db5a-4a05-afce-9fc33e418a05")
 		)
 		(pad "6" smd roundrect
@@ -35754,6 +35759,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
+			(net "Net-(R64-Pad1)")
+			(pintype "output")
 			(uuid "2057c6df-4131-42bc-9a17-881b5a8d18f1")
 		)
 		(pad "7" smd roundrect
@@ -35761,6 +35768,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
+			(net "+12V")
+			(pinfunction "V+")
+			(pintype "power_in")
 			(uuid "3772acb4-88d9-4768-975c-860c984fac4c")
 		)
 		(pad "8" smd roundrect
@@ -35768,6 +35778,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "5600ce82-0503-4cab-95a1-73ec5dd08b60")
 		)
 		(embedded_fonts no)
@@ -39838,7 +39850,7 @@
 				)
 			)
 		)
-		(property "Value" "NCS20071XV"
+		(property "Value" "OPA197IDR"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39850,7 +39862,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39861,7 +39873,7 @@
 				)
 			)
 		)
-		(property "Description" "Single, 2.8V/µs, Rail-to-Rail Output, SOT-553"
+		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39884,7 +39896,7 @@
 				)
 			)
 		)
-		(property "MPN" "NCS20071SN2T1G"
+		(property "MPN" "OPA197IDR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39896,7 +39908,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SOT?553*")
+		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/9e576fbe-7df5-4042-bc80-8ba63217e981")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
@@ -40122,9 +40134,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U12-+)")
-			(pinfunction "+_1")
-			(pintype "input")
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "07986248-33fe-4a3d-8f98-327f5560551e")
 		)
 		(pad "2" smd roundrect
@@ -40132,9 +40143,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
-			(pinfunction "V-_2")
-			(pintype "power_in")
+			(net "Net-(U12--)")
+			(pinfunction "-")
+			(pintype "input")
 			(uuid "da731e38-43e7-452f-91aa-ac2bea6514b7")
 		)
 		(pad "3" smd roundrect
@@ -40142,8 +40153,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U12--)")
-			(pinfunction "-_3")
+			(net "Net-(U12-+)")
+			(pinfunction "+")
 			(pintype "input")
 			(uuid "5c4de8ce-28b6-4a27-a4d3-4822f625e1bd")
 		)
@@ -40152,8 +40163,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(R65-Pad1)")
-			(pintype "output")
+			(net "GND")
+			(pinfunction "V-")
+			(pintype "power_in")
 			(uuid "c1b0e0a6-a58f-429d-add0-8963653c794c")
 		)
 		(pad "5" smd roundrect
@@ -40161,9 +40173,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+12V")
-			(pinfunction "V+_5")
-			(pintype "power_in")
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "eeeacf30-46ca-44f1-8af3-d98dc337273a")
 		)
 		(pad "6" smd roundrect
@@ -40171,6 +40182,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
+			(net "Net-(R65-Pad1)")
+			(pintype "output")
 			(uuid "281feee7-76c0-444e-9c2f-5e544bb8a7db")
 		)
 		(pad "7" smd roundrect
@@ -40178,6 +40191,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
+			(net "+12V")
+			(pinfunction "V+")
+			(pintype "power_in")
 			(uuid "ee8fbb1f-3f1d-4cc3-9083-591a60eaf8c4")
 		)
 		(pad "8" smd roundrect
@@ -40185,6 +40201,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "e174c626-af65-4aaa-8015-ef9b996a60f0")
 		)
 		(embedded_fonts no)
@@ -51037,7 +51055,7 @@
 				)
 			)
 		)
-		(property "Value" "NCS20071XV"
+		(property "Value" "OPA197IDR"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -51049,7 +51067,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -51060,7 +51078,7 @@
 				)
 			)
 		)
-		(property "Description" "Single, 2.8V/µs, Rail-to-Rail Output, SOT-553"
+		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -51083,7 +51101,7 @@
 				)
 			)
 		)
-		(property "MPN" "NCS20071SN2T1G"
+		(property "MPN" "OPA197IDR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -51095,7 +51113,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "SOT?553*")
+		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/220f12d8-c8cb-46a0-bd5b-0937aab47885")
 		(sheetname "/CAN-FD/")
 		(sheetfile "pcbgolf_4.kicad_sch")
@@ -51321,9 +51339,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U9-+)")
-			(pinfunction "+_1")
-			(pintype "input")
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "35734eb1-9fa4-49b5-940a-5eb76a58f673")
 		)
 		(pad "2" smd roundrect
@@ -51331,9 +51348,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
-			(pinfunction "V-_2")
-			(pintype "power_in")
+			(net "Net-(U9--)")
+			(pinfunction "-")
+			(pintype "input")
 			(uuid "cbb8c5de-f64a-4b88-af82-0ec92210f205")
 		)
 		(pad "3" smd roundrect
@@ -51341,8 +51358,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(U9--)")
-			(pinfunction "-_3")
+			(net "Net-(U9-+)")
+			(pinfunction "+")
 			(pintype "input")
 			(uuid "9d1e4954-db43-4643-ba3d-ad0e33ba4920")
 		)
@@ -51351,8 +51368,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(R62-Pad1)")
-			(pintype "output")
+			(net "GND")
+			(pinfunction "V-")
+			(pintype "power_in")
 			(uuid "0ea343a7-da4e-44ee-b592-08506df24143")
 		)
 		(pad "5" smd roundrect
@@ -51360,9 +51378,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "+12V")
-			(pinfunction "V+_5")
-			(pintype "power_in")
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "8788e74f-745b-4586-ad27-288a75c6d70a")
 		)
 		(pad "6" smd roundrect
@@ -51370,6 +51387,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
+			(net "Net-(R62-Pad1)")
+			(pintype "output")
 			(uuid "ad0a76a7-e9a0-4dcb-a5b3-28ddaafc6e1d")
 		)
 		(pad "7" smd roundrect
@@ -51377,6 +51396,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
+			(net "+12V")
+			(pinfunction "V+")
+			(pintype "power_in")
 			(uuid "fbddd5b4-9c76-4e80-a65f-43bb99b8699c")
 		)
 		(pad "8" smd roundrect
@@ -51384,6 +51406,8 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "056622bd-6f35-4f51-9827-0637c1710ad5")
 		)
 		(embedded_fonts no)

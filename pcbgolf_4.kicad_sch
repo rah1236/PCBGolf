@@ -5,7 +5,7 @@
 	(uuid "3dd848dd-20c1-4538-b9e1-dea1a629889b")
 	(paper "User" 297.0022 223.9264)
 	(lib_symbols
-		(symbol "pcbgolf:NCS20071XV"
+		(symbol "pcbgolf:OPA197IDR"
 			(pin_names
 				(offset 0.127)
 			)
@@ -24,7 +24,7 @@
 					)
 				)
 			)
-			(property "Value" "NCS20071XV"
+			(property "Value" "OPA197IDR"
 				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -45,7 +45,12 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+			(property "MPN" "OPA197IDR"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
 				(at 1.27 30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -56,7 +61,7 @@
 					)
 				)
 			)
-			(property "Description" "Single, 2.8V/µs, Rail-to-Rail Output, SOT-553"
+			(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -78,7 +83,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOT?553*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -89,7 +94,7 @@
 					)
 				)
 			)
-			(symbol "NCS20071XV_1_1"
+			(symbol "OPA197IDR_1_1"
 				(polyline
 					(pts
 						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
@@ -112,7 +117,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -130,7 +135,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -148,7 +153,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -166,7 +171,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -184,7 +189,61 @@
 							)
 						)
 					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 2.54 0 270)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 2.54 270)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -2.54 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5490,7 +5549,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:NCS20071XV")
+		(lib_id "pcbgolf:OPA197IDR")
 		(at 214.63 31.75 0)
 		(unit 1)
 		(body_style 1)
@@ -5510,7 +5569,7 @@
 				)
 			)
 		)
-		(property "Value" "NCS20071XV"
+		(property "Value" "OPA197IDR"
 			(at 219.964 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5531,7 +5590,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
 			(at 215.9 1.27 0)
 			(hide yes)
 			(show_name no)
@@ -5542,7 +5601,7 @@
 				)
 			)
 		)
-		(property "Description" "Single, 2.8V/µs, Rail-to-Rail Output, SOT-553"
+		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
 			(at 214.63 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -5553,7 +5612,7 @@
 				)
 			)
 		)
-		(property "MPN" "NCS20071SN2T1G"
+		(property "MPN" "OPA197IDR"
 			(at 214.63 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -5564,20 +5623,29 @@
 				)
 			)
 		)
-		(pin "4"
+		(pin "6"
 			(uuid "13e2a791-8ff4-415a-aa8e-cec1373de3f4")
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "ec10924e-2046-4831-b436-ea6eaf4fe80e")
 		)
-		(pin "2"
+		(pin "4"
 			(uuid "d8923421-de10-4e69-b98a-0a1252f924fb")
 		)
-		(pin "1"
+		(pin "3"
 			(uuid "8e93b030-6333-490e-89c6-939db420b885")
 		)
-		(pin "5"
+		(pin "7"
 			(uuid "1795e2f6-bef0-4f74-bf3d-4541f5133e69")
+		)
+		(pin "1"
+			(uuid "4d31ea6d-6185-49b0-9b5a-846aa2659d87")
+		)
+		(pin "5"
+			(uuid "d0a52733-29a1-4fe6-b7fd-a04975ead0c2")
+		)
+		(pin "8"
+			(uuid "dfd92ae1-7094-47e8-b4fc-5b32e8105d82")
 		)
 		(instances
 			(project "pcbgolf"
@@ -6537,7 +6605,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:NCS20071XV")
+		(lib_id "pcbgolf:OPA197IDR")
 		(at 214.63 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -6557,7 +6625,7 @@
 				)
 			)
 		)
-		(property "Value" "NCS20071XV"
+		(property "Value" "OPA197IDR"
 			(at 219.964 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6578,7 +6646,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
 			(at 215.9 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6589,7 +6657,7 @@
 				)
 			)
 		)
-		(property "Description" "Single, 2.8V/µs, Rail-to-Rail Output, SOT-553"
+		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
 			(at 214.63 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6600,7 +6668,7 @@
 				)
 			)
 		)
-		(property "MPN" "NCS20071SN2T1G"
+		(property "MPN" "OPA197IDR"
 			(at 214.63 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6611,20 +6679,29 @@
 				)
 			)
 		)
-		(pin "4"
+		(pin "6"
 			(uuid "8f129b3b-898b-4ae1-9882-c838bb42b395")
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "7390fb14-1ae0-4546-9245-a381f5457068")
 		)
-		(pin "2"
+		(pin "4"
 			(uuid "5fd9be33-1ca0-4c10-a753-7e4126da3544")
 		)
-		(pin "1"
+		(pin "3"
 			(uuid "9878d2bf-2512-483c-97fd-844968cbc349")
 		)
-		(pin "5"
+		(pin "7"
 			(uuid "44a54b71-a6d4-4dbd-b02f-4a41655b6ddb")
+		)
+		(pin "1"
+			(uuid "25222757-3aa2-48cb-bee4-010ef291d052")
+		)
+		(pin "5"
+			(uuid "94b2280d-8b94-4a94-912e-25e697f71d10")
+		)
+		(pin "8"
+			(uuid "16bc4d16-72c7-46bd-9aa2-57c46fe614e1")
 		)
 		(instances
 			(project "pcbgolf"
@@ -7606,7 +7683,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:NCS20071XV")
+		(lib_id "pcbgolf:OPA197IDR")
 		(at 214.63 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -7626,7 +7703,7 @@
 				)
 			)
 		)
-		(property "Value" "NCS20071XV"
+		(property "Value" "OPA197IDR"
 			(at 219.964 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7647,7 +7724,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
 			(at 215.9 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7658,7 +7735,7 @@
 				)
 			)
 		)
-		(property "Description" "Single, 2.8V/µs, Rail-to-Rail Output, SOT-553"
+		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
 			(at 214.63 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7669,7 +7746,7 @@
 				)
 			)
 		)
-		(property "MPN" "NCS20071SN2T1G"
+		(property "MPN" "OPA197IDR"
 			(at 214.63 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7680,20 +7757,29 @@
 				)
 			)
 		)
-		(pin "4"
+		(pin "6"
 			(uuid "a5f76715-0f6d-43db-8eee-913a8886c381")
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "0da7f938-1737-4721-8233-c01e75009a44")
 		)
-		(pin "2"
+		(pin "4"
 			(uuid "ef015d0f-6045-4e10-99d8-efae7bcf68ca")
 		)
-		(pin "1"
+		(pin "3"
 			(uuid "7661af4d-19ce-4056-8672-218d823cbfc8")
 		)
-		(pin "5"
+		(pin "7"
 			(uuid "2f39e752-9b62-4ec0-9bb1-c1c394b2a8da")
+		)
+		(pin "1"
+			(uuid "b071c5e4-5bd1-4c12-8069-ea493e0d424a")
+		)
+		(pin "5"
+			(uuid "99618669-f582-4b12-81d4-80a7198864af")
+		)
+		(pin "8"
+			(uuid "176a6d3d-dea2-4f18-b38f-95ed866012ac")
 		)
 		(instances
 			(project "pcbgolf"
@@ -10270,7 +10356,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:NCS20071XV")
+		(lib_id "pcbgolf:OPA197IDR")
 		(at 214.63 146.05 0)
 		(unit 1)
 		(body_style 1)
@@ -10290,7 +10376,7 @@
 				)
 			)
 		)
-		(property "Value" "NCS20071XV"
+		(property "Value" "OPA197IDR"
 			(at 219.964 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10311,7 +10397,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
 			(at 215.9 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10322,7 +10408,7 @@
 				)
 			)
 		)
-		(property "Description" "Single, 2.8V/µs, Rail-to-Rail Output, SOT-553"
+		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
 			(at 214.63 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10333,7 +10419,7 @@
 				)
 			)
 		)
-		(property "MPN" "NCS20071SN2T1G"
+		(property "MPN" "OPA197IDR"
 			(at 214.63 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10344,20 +10430,29 @@
 				)
 			)
 		)
-		(pin "4"
+		(pin "6"
 			(uuid "1611f54b-442f-4aa8-bcc1-309104fd228b")
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "1514dcca-ebd7-42c1-98f0-1e550b6774be")
 		)
-		(pin "2"
+		(pin "4"
 			(uuid "6d3c6273-91d7-406c-924f-0d9fafc2dd13")
 		)
-		(pin "1"
+		(pin "3"
 			(uuid "5a114dfa-369f-4075-8d50-0fe02b4cc666")
 		)
-		(pin "5"
+		(pin "7"
 			(uuid "c374e574-264f-4e07-ac29-3b3321b45bea")
+		)
+		(pin "1"
+			(uuid "0146f826-8cee-4a01-9792-0b7a4bccb9d0")
+		)
+		(pin "5"
+			(uuid "f09fba65-b348-4c91-9e36-280421463ff6")
+		)
+		(pin "8"
+			(uuid "7c40a41c-801f-4704-a207-1f36d685fc59")
 		)
 		(instances
 			(project "pcbgolf"

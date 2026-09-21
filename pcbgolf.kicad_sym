@@ -58938,7 +58938,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "NCS20071XV"
+	(symbol "OPA197IDR"
 		(pin_names
 			(offset 0.127)
 		)
@@ -58957,7 +58957,7 @@
 				)
 			)
 		)
-		(property "Value" "NCS20071XV"
+		(property "Value" "OPA197IDR"
 			(at 0 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58978,7 +58978,12 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
+		(property "MPN" "OPA197IDR"
+			(at 0 0 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa197.pdf"
 			(at 1.27 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58989,7 +58994,7 @@
 				)
 			)
 		)
-		(property "Description" "Single, 2.8V/µs, Rail-to-Rail Output, SOT-553"
+		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59011,7 +59016,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "SOT?553*"
+		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59022,7 +59027,7 @@
 				)
 			)
 		)
-		(symbol "NCS20071XV_1_1"
+		(symbol "OPA197IDR_1_1"
 			(polyline
 				(pts
 					(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
@@ -59045,7 +59050,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -59063,7 +59068,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -59081,7 +59086,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -59099,7 +59104,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -59117,7 +59122,61 @@
 						)
 					)
 				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 2.54 0 270)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 2.54 270)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 -2.54 90)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
