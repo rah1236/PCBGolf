@@ -5,6 +5,146 @@
 	(uuid "a460568a-62a0-4817-80d6-f93742958170")
 	(paper "User" 376.174 279.4)
 	(lib_symbols
+		(symbol "pcbgolf:+12V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		
 		(symbol "pcbgolf:comma.ai_11112255_C0805"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -268,7 +408,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pcbgolf:comma.ai_11112255_LED-0805"
+		(symbol "pcbgolf:APG015ZGC_S-5MAV"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -285,7 +425,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "APG015ZGC/S-5MAV"
 				(at 1.905 -4.572 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -296,7 +436,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "pcbgolf:CHIPLED"
+			(property "Footprint" "pcbgolf:Kingbright_APG015_01005"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -307,7 +447,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APG015ZGC-S-5MAV.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -339,7 +479,7 @@
 					)
 				)
 			)
-			(symbol "comma.ai_11112255_LED-0805_1_0"
+			(symbol "APG015ZGC_S-5MAV_1_0"
 				(polyline
 					(pts
 						(xy -3.429 -2.159) (xy -3.048 -1.27) (xy -2.54 -1.778) (xy -3.429 -2.159)
@@ -458,7 +598,7 @@
 							)
 						)
 					)
-					(number "A"
+					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -469,14 +609,14 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
-					(name "C"
+					(name "K"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "C"
+					(number "1"
 						(effects
 							(font
 								(size 0 0)
@@ -487,7 +627,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pcbgolf:comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG"
+		(symbol "pcbgolf:APTB1612ESGC-F01"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -504,7 +644,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "APTB1612ESGC-F01"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -515,7 +655,7 @@
 					)
 				)
 			)
-			(property "Footprint" "pcbgolf:SOT23-3"
+			(property "Footprint" "pcbgolf:Kingbright_APTB1612ESGC-F01"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -526,7 +666,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTB1612ESGC-F01.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -558,7 +698,7 @@
 					)
 				)
 			)
-			(symbol "comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG_1_0"
+			(symbol "APTB1612ESGC-F01_1_0"
 				(polyline
 					(pts
 						(xy -5.969 2.921) (xy -5.588 3.81) (xy -5.08 3.302) (xy -5.969 2.921)
@@ -832,7 +972,7 @@
 				(pin passive line
 					(at 2.54 7.62 270)
 					(length 2.54)
-					(name "AR"
+					(name "R_A"
 						(effects
 							(font
 								(size 0 0)
@@ -850,25 +990,7 @@
 				(pin passive line
 					(at -2.54 7.62 270)
 					(length 2.54)
-					(name "AG"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "C"
+					(name "G_A"
 						(effects
 							(font
 								(size 0 0)
@@ -883,10 +1005,46 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "R_K"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+(pin passive line
+					(at -2.54 -2.54 90)
+					(length 2.54)
+					(name "G_K"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pcbgolf:comma.ai_11112255_NFET-DUAL-COMMON-SOURCE-QS5K2"
+		(symbol "pcbgolf:AON2812"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -903,7 +1061,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "AON2812"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -914,7 +1072,7 @@
 					)
 				)
 			)
-			(property "Footprint" "pcbgolf:SOT23-5"
+			(property "Footprint" "pcbgolf:AON2812_DFN2x2A_6L_EP2_S"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -925,7 +1083,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON2812.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -957,7 +1115,7 @@
 					)
 				)
 			)
-			(symbol "comma.ai_11112255_NFET-DUAL-COMMON-SOURCE-QS5K2_1_0"
+			(symbol "AON2812_1_0"
 				(polyline
 					(pts
 						(xy -3.81 0) (xy -5.08 0)
@@ -1840,7 +1998,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -1851,14 +2009,14 @@
 				(pin passive line
 					(at 5.08 -7.62 90)
 					(length 2.54)
-					(name "S"
+					(name "S1"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 0 0)
@@ -1876,7 +2034,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 0 0)
@@ -1894,7 +2052,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 0 0)
@@ -1912,7 +2070,25 @@
 							)
 						)
 					)
-					(number "5"
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+(pin passive line
+					(at 7.62 -7.62 90)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 0 0)
@@ -3344,145 +3520,6 @@
 						(effects
 							(font
 								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "pcbgolf:+12V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -7601,6 +7638,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 16.51) (xy 196.85 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b94e3c-ed8c-4838-8bd7-d3ebdb7693a0")
+	)
+	(wire
+		(pts
 			(xy 312.42 161.29) (xy 312.42 168.91)
 		)
 		(stroke
@@ -10666,7 +10713,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0272094a-3413-4501-949a-35791510c1cc")
-		(property "Reference" "#GND0107"
+		(property "Reference" "#GND083"
 			(at 95.25 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -10710,7 +10757,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 95.25 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -10727,7 +10774,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0107")
+					(reference "#GND083")
 					(unit 1)
 				)
 			)
@@ -10917,7 +10964,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_NFET-DUAL-COMMON-SOURCE-QS5K2")
+		(lib_id "pcbgolf:AON2812")
 		(at 224.79 46.99 0)
 		(unit 1)
 		(body_style 1)
@@ -10938,7 +10985,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "NFET-DUAL-COMMON-SOURCE-QS5K2"
+		(property "Value" "AON2812"
 			(at 224.79 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10949,7 +10996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-5"
+		(property "Footprint" "pcbgolf:AON2812_DFN2x2A_6L_EP2_S"
 			(at 224.79 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10960,7 +11007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON2812.pdf"
 			(at 224.79 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10982,7 +11029,7 @@
 				)
 			)
 		)
-		(property "MPN" "QS5K2TR"
+		(property "MPN" "AON2812"
 			(at 224.79 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10994,20 +11041,23 @@
 				(justify left bottom)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "94908896-7dd2-440b-b912-1ac0bd9043b4")
 		)
-		(pin "5"
+		(pin "6"
 			(uuid "6f4b186a-612c-40e1-9fcc-9ef8e999c76e")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "d7157aed-41dd-4f65-a3ca-cd8ba4337603")
 		)
-		(pin "3"
+		(pin "5"
 			(uuid "014c7af2-8be3-45a7-b412-bcd6de7ff653")
 		)
-		(pin "4"
+		(pin "3"
 			(uuid "03877c49-835c-45f5-a2dd-d209249ae06b")
+		)
+(pin "4"
+			(uuid "1328dc69-9d7d-4eaa-a530-a59ec469ba68")
 		)
 		(instances
 			(project "pcbgolf"
@@ -11029,7 +11079,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03bd7d81-4c56-4ff7-9fb0-a7d156931b05")
-		(property "Reference" "R93"
+		(property "Reference" "R84"
 			(at 238.252 95.7834 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11105,7 +11155,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R93")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -11122,7 +11172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05600be8-dd8c-4dde-9e67-5d852195c5f8")
-		(property "Reference" "U13"
+		(property "Reference" "U17"
 			(at 54.61 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11255,7 +11305,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "U13")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -11272,7 +11322,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0577be6c-b9ae-4686-9d8c-e5e0873da596")
-		(property "Reference" "#GND0136"
+		(property "Reference" "#GND0112"
 			(at 297.18 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11316,7 +11366,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 297.18 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11333,7 +11383,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0136")
+					(reference "#GND0112")
 					(unit 1)
 				)
 			)
@@ -11350,7 +11400,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a0491a0-fe48-4811-8ea0-a1d29988a792")
-		(property "Reference" "#GND0101"
+		(property "Reference" "#GND077"
 			(at 87.63 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11394,7 +11444,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 87.63 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11411,7 +11461,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0101")
+					(reference "#GND077")
 					(unit 1)
 				)
 			)
@@ -11428,7 +11478,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c266017-3f26-4f3d-b3ff-b0b153c1c838")
-		(property "Reference" "#GND0142"
+		(property "Reference" "#GND0118"
 			(at 299.72 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -11472,7 +11522,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 299.72 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -11489,7 +11539,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0142")
+					(reference "#GND0118")
 					(unit 1)
 				)
 			)
@@ -11506,7 +11556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c37d6d0-8e42-41db-8944-056fa3ebc651")
-		(property "Reference" "U14"
+		(property "Reference" "U18"
 			(at 54.61 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11639,7 +11689,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "U14")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -11656,7 +11706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12fada47-f53b-44b1-ba2b-4efaf7076eee")
-		(property "Reference" "R68"
+		(property "Reference" "R59"
 			(at 46.7614 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11732,7 +11782,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R68")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -11749,7 +11799,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1445a437-1c14-483a-81be-af1a78687598")
-		(property "Reference" "#GND0112"
+		(property "Reference" "#GND088"
 			(at 135.89 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11793,7 +11843,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 135.89 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11810,7 +11860,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0112")
+					(reference "#GND088")
 					(unit 1)
 				)
 			)
@@ -11827,7 +11877,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14872de7-22dd-4d20-953e-e66264073b29")
-		(property "Reference" "R96"
+		(property "Reference" "R87"
 			(at 237.998 197.3834 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11903,7 +11953,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R96")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -11920,7 +11970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16ec2e9a-2b41-4066-8239-73f2c4ee9aac")
-		(property "Reference" "R71"
+		(property "Reference" "R62"
 			(at 95.0214 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11996,14 +12046,14 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R71")
+					(reference "R62")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_NFET-DUAL-COMMON-SOURCE-QS5K2")
+		(lib_id "pcbgolf:AON2812")
 		(at 307.34 207.01 0)
 		(unit 1)
 		(body_style 1)
@@ -12024,7 +12074,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "NFET-DUAL-COMMON-SOURCE-QS5K2"
+		(property "Value" "AON2812"
 			(at 307.34 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -12035,7 +12085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-5"
+		(property "Footprint" "pcbgolf:AON2812_DFN2x2A_6L_EP2_S"
 			(at 307.34 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -12046,7 +12096,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON2812.pdf"
 			(at 307.34 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -12068,7 +12118,7 @@
 				)
 			)
 		)
-		(property "MPN" "QS5K2TR"
+		(property "MPN" "AON2812"
 			(at 307.34 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -12080,20 +12130,23 @@
 				(justify left bottom)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "d0c6d539-0713-48c0-90ae-bbea5c2cf80d")
 		)
-		(pin "4"
+		(pin "3"
 			(uuid "87018aa7-b0c0-4888-a1a4-d4289ecd3683")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "b75f53bf-6564-4d8a-a212-6286adf3939b")
 		)
-		(pin "3"
+		(pin "5"
 			(uuid "556e04c3-9879-414f-ac36-e11a050706c7")
 		)
-		(pin "5"
+		(pin "6"
 			(uuid "a7756c3e-202d-4132-9a6d-0097f19ab673")
+		)
+(pin "4"
+			(uuid "ac8d5d99-9150-4655-9025-65c542ac82aa")
 		)
 		(instances
 			(project "pcbgolf"
@@ -12298,7 +12351,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f563eb7-5577-4d57-bbe2-8e165df4b449")
-		(property "Reference" "R99"
+		(property "Reference" "R90"
 			(at 246.38 106.4514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12374,7 +12427,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R99")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -12391,7 +12444,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26f18e30-4d25-4ebb-ae4c-1a9fbd69b236")
-		(property "Reference" "C51"
+		(property "Reference" "C36"
 			(at 24.384 99.949 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12467,7 +12520,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "C51")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -12484,7 +12537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "272adf6d-174b-474f-bd0b-91a76bce7fc1")
-		(property "Reference" "R77"
+		(property "Reference" "R68"
 			(at 119.6086 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12560,14 +12613,14 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R77")
+					(reference "R68")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG")
+		(lib_id "pcbgolf:APTB1612ESGC-F01")
 		(at 307.34 24.13 270)
 		(unit 1)
 		(body_style 1)
@@ -12588,7 +12641,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "LED-CC-GREEN-RED-AM23ESG"
+		(property "Value" "APTB1612ESGC-F01"
 			(at 307.34 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -12599,7 +12652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-3"
+		(property "Footprint" "pcbgolf:Kingbright_APTB1612ESGC-F01"
 			(at 307.34 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -12610,7 +12663,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTB1612ESGC-F01.pdf"
 			(at 307.34 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -12632,7 +12685,7 @@
 				)
 			)
 		)
-		(property "MPN" "AM23ESGW"
+		(property "MPN" "APTB1612ESGC-F01"
 			(at 307.34 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -12644,14 +12697,17 @@
 				(justify left bottom)
 			)
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "ac4ea24b-489c-4c5d-afe5-7fe76f266d74")
 		)
 		(pin "1"
 			(uuid "db2ba66b-a24e-4694-b925-d98d04f4808b")
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "a3918b11-6419-409a-a188-4cbb712775ea")
+		)
+(pin "4"
+			(uuid "f2df45ec-d959-4d1b-a279-5daaaa203083")
 		)
 		(instances
 			(project "pcbgolf"
@@ -12673,7 +12729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c571ad7-138e-49c6-8eaa-8f64e1f373d0")
-		(property "Reference" "U15"
+		(property "Reference" "U19"
 			(at 54.61 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12806,7 +12862,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "U15")
+					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -12823,7 +12879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ec0b86a-72d8-4827-8092-f3398c0abbb8")
-		(property "Reference" "#GND0109"
+		(property "Reference" "#GND085"
 			(at 118.11 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -12867,7 +12923,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 118.11 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -12884,14 +12940,14 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0109")
+					(reference "#GND085")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG")
+		(lib_id "pcbgolf:APTB1612ESGC-F01")
 		(at 307.34 77.47 270)
 		(unit 1)
 		(body_style 1)
@@ -12912,7 +12968,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "LED-CC-GREEN-RED-AM23ESG"
+		(property "Value" "APTB1612ESGC-F01"
 			(at 307.34 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -12923,7 +12979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-3"
+		(property "Footprint" "pcbgolf:Kingbright_APTB1612ESGC-F01"
 			(at 307.34 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -12934,7 +12990,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTB1612ESGC-F01.pdf"
 			(at 307.34 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -12956,7 +13012,7 @@
 				)
 			)
 		)
-		(property "MPN" "AM23ESGW"
+		(property "MPN" "APTB1612ESGC-F01"
 			(at 307.34 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -12968,14 +13024,17 @@
 				(justify left bottom)
 			)
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "cda4b6b5-2a99-48bf-8b44-e5c8430949fb")
 		)
 		(pin "1"
 			(uuid "02e54e3a-d3bb-49ff-ad65-f380219cb18a")
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "ad9465ec-295f-42e3-9f36-e100a56b25f6")
+		)
+(pin "4"
+			(uuid "ef61437d-83b2-4066-ab99-5fd202184921")
 		)
 		(instances
 			(project "pcbgolf"
@@ -12987,7 +13046,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_NFET-DUAL-COMMON-SOURCE-QS5K2")
+		(lib_id "pcbgolf:AON2812")
 		(at 307.34 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -13008,7 +13067,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "NFET-DUAL-COMMON-SOURCE-QS5K2"
+		(property "Value" "AON2812"
 			(at 307.34 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13019,7 +13078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-5"
+		(property "Footprint" "pcbgolf:AON2812_DFN2x2A_6L_EP2_S"
 			(at 307.34 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13030,7 +13089,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON2812.pdf"
 			(at 307.34 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13052,7 +13111,7 @@
 				)
 			)
 		)
-		(property "MPN" "QS5K2TR"
+		(property "MPN" "AON2812"
 			(at 307.34 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13064,20 +13123,23 @@
 				(justify left bottom)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "9fd180fb-3db3-462b-bcca-d64f237f6172")
 		)
-		(pin "3"
+		(pin "5"
 			(uuid "2508f3c4-abcc-44e9-bc60-87a06b336b60")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "f06321a5-c886-4034-9d12-e5ad6fe36b6f")
 		)
-		(pin "5"
+		(pin "6"
 			(uuid "f456aa59-e097-4ae5-848e-3dd7511fc0f5")
 		)
-		(pin "4"
+		(pin "3"
 			(uuid "d181f365-5871-47b1-bd56-27f635733ef4")
+		)
+(pin "4"
+			(uuid "57c8c5e7-4189-46e4-b113-833eb9fe1776")
 		)
 		(instances
 			(project "pcbgolf"
@@ -13099,7 +13161,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30bbea28-5c1a-455b-b139-9189a51ff398")
-		(property "Reference" "#GND0123"
+		(property "Reference" "#GND099"
 			(at 214.63 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -13143,7 +13205,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 214.63 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -13160,7 +13222,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0123")
+					(reference "#GND099")
 					(unit 1)
 				)
 			)
@@ -13177,7 +13239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "310eb9ad-adaa-4268-88a1-254dc0582c39")
-		(property "Reference" "#GND092"
+		(property "Reference" "#GND068"
 			(at 44.45 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13221,7 +13283,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 44.45 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13238,14 +13300,14 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND092")
+					(reference "#GND068")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(lib_id "pcbgolf:APG015ZGC_S-5MAV")
 		(at 118.11 153.67 0)
 		(unit 1)
 		(body_style 1)
@@ -13266,10 +13328,11 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CH1_PWR"
+		(property "Value" "APG015ZGC/S-5MAV"
 			(at 120.523 156.972 90)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13277,7 +13340,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:CHIPLED"
+		(property "Footprint" "pcbgolf:Kingbright_APG015_01005"
 			(at 118.11 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -13288,7 +13351,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APG015ZGC-S-5MAV.pdf"
 			(at 118.11 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -13310,7 +13373,7 @@
 				)
 			)
 		)
-		(property "MPN" "LG R971-KN-1"
+		(property "MPN" "APG015ZGC/S-5MAV"
 			(at 118.11 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -13322,10 +13385,10 @@
 				(justify left bottom)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "342fee4c-f95e-4962-8453-7e760d5f0484")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "4512e8a1-7a54-4e76-8cc3-1bab4070fded")
 		)
 		(instances
@@ -13349,7 +13412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "348b8c9b-e821-4b65-863c-baa33c96d8ec")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR047"
 			(at 22.86 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13409,7 +13472,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#PWR051")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -13426,7 +13489,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34d10bda-ce15-4fff-bf4e-b1a98ded6e81")
-		(property "Reference" "#GND0133"
+		(property "Reference" "#GND0109"
 			(at 245.11 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13470,7 +13533,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 245.11 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13487,7 +13550,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0133")
+					(reference "#GND0109")
 					(unit 1)
 				)
 			)
@@ -13504,7 +13567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36268ead-7b7f-4dfd-a4d4-c923b31fd1f4")
-		(property "Reference" "R116"
+		(property "Reference" "R107"
 			(at 320.548 90.7034 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13580,7 +13643,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R116")
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -13597,7 +13660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37fca663-6a96-4c71-ade6-c15c46d9ea49")
-		(property "Reference" "#GND088"
+		(property "Reference" "#GND064"
 			(at 22.86 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -13641,7 +13704,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 22.86 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -13658,7 +13721,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND088")
+					(reference "#GND064")
 					(unit 1)
 				)
 			)
@@ -13675,7 +13738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38d1f7b6-0a7e-490d-81ca-d817255e7928")
-		(property "Reference" "#GND0119"
+		(property "Reference" "#GND095"
 			(at 176.53 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -13719,7 +13782,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 176.53 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -13736,7 +13799,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0119")
+					(reference "#GND095")
 					(unit 1)
 				)
 			)
@@ -13753,7 +13816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "392a2d5a-be37-48fc-b1e4-8256515fe126")
-		(property "Reference" "#GND0117"
+		(property "Reference" "#GND093"
 			(at 176.53 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13797,7 +13860,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 176.53 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13814,7 +13877,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0117")
+					(reference "#GND093")
 					(unit 1)
 				)
 			)
@@ -13831,7 +13894,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39c1d8cf-77de-4308-aecb-72014efc08a4")
-		(property "Reference" "R75"
+		(property "Reference" "R66"
 			(at 119.6086 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13907,7 +13970,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R75")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -13924,7 +13987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b253b19-4084-44a6-80ff-931e693a2f26")
-		(property "Reference" "R110"
+		(property "Reference" "R101"
 			(at 318.262 131.3434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14000,7 +14063,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R110")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -14017,7 +14080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d4ff678-ec2b-4926-b0ca-4c52b3bcf16e")
-		(property "Reference" "R80"
+		(property "Reference" "R71"
 			(at 215.9 159.7914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14093,7 +14156,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R80")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -14110,7 +14173,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fdbdfd5-069f-4d3c-88f6-0859def9e73a")
-		(property "Reference" "R123"
+		(property "Reference" "R114"
 			(at 328.93 106.4514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14186,7 +14249,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R123")
+					(reference "R114")
 					(unit 1)
 				)
 			)
@@ -14203,7 +14266,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4315c912-cd91-48a2-af1e-28b56c47a290")
-		(property "Reference" "#GND0108"
+		(property "Reference" "#GND084"
 			(at 118.11 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -14247,7 +14310,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 118.11 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -14264,7 +14327,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0108")
+					(reference "#GND084")
 					(unit 1)
 				)
 			)
@@ -14281,7 +14344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43569406-17ab-44ce-9405-1c0b7bfc7634")
-		(property "Reference" "R101"
+		(property "Reference" "R92"
 			(at 246.38 213.1314 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14357,7 +14420,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R101")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -14374,7 +14437,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "438a15ef-2463-4c4e-a29d-2df4aba0cd93")
-		(property "Reference" "#GND0113"
+		(property "Reference" "#GND089"
 			(at 135.89 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -14418,7 +14481,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 135.89 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -14435,14 +14498,14 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0113")
+					(reference "#GND089")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG")
+		(lib_id "pcbgolf:APTB1612ESGC-F01")
 		(at 224.79 77.47 270)
 		(unit 1)
 		(body_style 1)
@@ -14463,7 +14526,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "LED-CC-GREEN-RED-AM23ESG"
+		(property "Value" "APTB1612ESGC-F01"
 			(at 224.79 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -14474,7 +14537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-3"
+		(property "Footprint" "pcbgolf:Kingbright_APTB1612ESGC-F01"
 			(at 224.79 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -14485,7 +14548,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTB1612ESGC-F01.pdf"
 			(at 224.79 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -14507,7 +14570,7 @@
 				)
 			)
 		)
-		(property "MPN" "AM23ESGW"
+		(property "MPN" "APTB1612ESGC-F01"
 			(at 224.79 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -14522,11 +14585,14 @@
 		(pin "1"
 			(uuid "6a6d3f6d-7b52-4e6e-be56-3ab565ba2dbb")
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "314d4581-00c9-4fad-b242-9df752c11c3a")
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "d2c8049b-0c79-4901-a18e-83413933e6d0")
+		)
+(pin "4"
+			(uuid "144370c8-8972-4c75-872c-8474bbe33001")
 		)
 		(instances
 			(project "pcbgolf"
@@ -14548,7 +14614,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47e2fd29-495e-460e-85af-66471ef4794c")
-		(property "Reference" "R109"
+		(property "Reference" "R100"
 			(at 318.262 83.0834 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14624,7 +14690,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R109")
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -14641,7 +14707,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "484848c8-3ac5-4828-b5bc-98bc94092556")
-		(property "Reference" "R115"
+		(property "Reference" "R106"
 			(at 320.802 42.4434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14717,7 +14783,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R115")
+					(reference "R106")
 					(unit 1)
 				)
 			)
@@ -14734,7 +14800,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "496bd5a8-b0e8-4022-9904-51f161f60dac")
-		(property "Reference" "#GND097"
+		(property "Reference" "#GND073"
 			(at 46.99 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -14778,7 +14844,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 46.99 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -14795,7 +14861,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND097")
+					(reference "#GND073")
 					(unit 1)
 				)
 			)
@@ -14812,7 +14878,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4bf7743b-fa2d-4e73-8d06-b1aa01051bc6")
-		(property "Reference" "#GND0115"
+		(property "Reference" "#GND091"
 			(at 135.89 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -14856,7 +14922,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 135.89 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -14873,7 +14939,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0115")
+					(reference "#GND091")
 					(unit 1)
 				)
 			)
@@ -14890,7 +14956,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c02e975-d78c-48cc-b776-e5e418dfafcf")
-		(property "Reference" "#GND0134"
+		(property "Reference" "#GND0110"
 			(at 245.11 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -14934,7 +15000,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 245.11 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -14951,7 +15017,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0134")
+					(reference "#GND0110")
 					(unit 1)
 				)
 			)
@@ -14968,7 +15034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c425d2e-aa7a-4f67-b7e7-c85ce4e90d95")
-		(property "Reference" "R112"
+		(property "Reference" "R103"
 			(at 318.262 184.6834 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15044,7 +15110,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R112")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -15061,7 +15127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d4dba3d-7c86-4b9b-883d-15efe22e53d5")
-		(property "Reference" "R98"
+		(property "Reference" "R89"
 			(at 246.38 53.1114 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15137,7 +15203,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R98")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -15154,7 +15220,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d57fbc4-1335-4383-9897-b48ad8a6bc36")
-		(property "Reference" "R114"
+		(property "Reference" "R105"
 			(at 320.548 37.3634 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15230,7 +15296,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R114")
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -15247,7 +15313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fd71ed6-8657-45e0-b86d-fe3ed215b170")
-		(property "Reference" "#GND0104"
+		(property "Reference" "#GND080"
 			(at 95.25 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -15291,7 +15357,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 95.25 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -15308,7 +15374,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0104")
+					(reference "#GND080")
 					(unit 1)
 				)
 			)
@@ -15325,7 +15391,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "520c981e-6d49-450e-82b8-cfa35139cd77")
-		(property "Reference" "R100"
+		(property "Reference" "R91"
 			(at 246.38 159.7914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15401,7 +15467,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R100")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -15418,7 +15484,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52652a05-9602-4606-986f-75bb08c3a7e7")
-		(property "Reference" "R69"
+		(property "Reference" "R60"
 			(at 46.7614 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15494,7 +15560,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R69")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -15511,7 +15577,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "562d6e9b-ed01-4005-824b-c6aa2ee21778")
-		(property "Reference" "#GND0132"
+		(property "Reference" "#GND0108"
 			(at 245.11 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -15555,7 +15621,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 245.11 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -15572,14 +15638,14 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0132")
+					(reference "#GND0108")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_NFET-DUAL-COMMON-SOURCE-QS5K2")
+		(lib_id "pcbgolf:AON2812")
 		(at 307.34 46.99 0)
 		(unit 1)
 		(body_style 1)
@@ -15600,7 +15666,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "NFET-DUAL-COMMON-SOURCE-QS5K2"
+		(property "Value" "AON2812"
 			(at 307.34 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15611,7 +15677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-5"
+		(property "Footprint" "pcbgolf:AON2812_DFN2x2A_6L_EP2_S"
 			(at 307.34 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15622,7 +15688,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON2812.pdf"
 			(at 307.34 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15644,7 +15710,7 @@
 				)
 			)
 		)
-		(property "MPN" "QS5K2TR"
+		(property "MPN" "AON2812"
 			(at 307.34 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15656,20 +15722,23 @@
 				(justify left bottom)
 			)
 		)
-		(pin "4"
+		(pin "3"
 			(uuid "fa50c253-7667-44a4-ae42-eae5f6d429b7")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "b53a9477-c23b-41b0-b244-a7bced9dadcc")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "321fd83a-2d3e-4a58-8382-b70829c4880d")
 		)
-		(pin "3"
+		(pin "5"
 			(uuid "76f110f4-0873-47c7-bfc1-2c9cd7692f65")
 		)
-		(pin "5"
+		(pin "6"
 			(uuid "ef561737-95b2-4c12-b352-f5b5121eb4d1")
+		)
+(pin "4"
+			(uuid "711c4cbd-d0c4-422b-867a-59cf9c127018")
 		)
 		(instances
 			(project "pcbgolf"
@@ -15691,7 +15760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5be60c0b-b8ff-4897-b147-2e7bee46b4ed")
-		(property "Reference" "#GND0141"
+		(property "Reference" "#GND0117"
 			(at 299.72 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15735,7 +15804,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 299.72 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15752,7 +15821,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0141")
+					(reference "#GND0117")
 					(unit 1)
 				)
 			)
@@ -15769,7 +15838,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c3775e4-0a3e-4224-903b-292b3a5cbafd")
-		(property "Reference" "#GND0127"
+		(property "Reference" "#GND0103"
 			(at 217.17 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -15813,7 +15882,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 217.17 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -15830,7 +15899,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0127")
+					(reference "#GND0103")
 					(unit 1)
 				)
 			)
@@ -15847,7 +15916,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c935ac8-adb5-4904-b827-4d78bdf72ac5")
-		(property "Reference" "#GND094"
+		(property "Reference" "#GND070"
 			(at 44.45 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -15891,7 +15960,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 44.45 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -15908,7 +15977,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND094")
+					(reference "#GND070")
 					(unit 1)
 				)
 			)
@@ -15925,7 +15994,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d94cc32-8e1a-41b0-a7d8-5dd9538f65c8")
-		(property "Reference" "R106"
+		(property "Reference" "R97"
 			(at 318.262 24.6634 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16001,7 +16070,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R106")
+					(reference "R97")
 					(unit 1)
 				)
 			)
@@ -16018,7 +16087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5dcb0534-03b2-45e6-9629-e5231ef9e060")
-		(property "Reference" "R89"
+		(property "Reference" "R80"
 			(at 235.712 189.7634 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16094,7 +16163,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R89")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -16111,7 +16180,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62d0d178-2b7d-4c22-8c0a-6ec3fbc414ed")
-		(property "Reference" "#GND0118"
+		(property "Reference" "#GND094"
 			(at 176.53 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -16155,7 +16224,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 176.53 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -16172,7 +16241,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0118")
+					(reference "#GND094")
 					(unit 1)
 				)
 			)
@@ -16189,7 +16258,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63247684-5bdd-458b-b7d6-6ede781bbffa")
-		(property "Reference" "#GND090"
+		(property "Reference" "#GND066"
 			(at 22.86 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -16233,7 +16302,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 22.86 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -16250,7 +16319,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND090")
+					(reference "#GND066")
 					(unit 1)
 				)
 			)
@@ -16267,7 +16336,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63b7c16a-2cf6-4ad6-b871-647afec0ab75")
-		(property "Reference" "#GND0110"
+		(property "Reference" "#GND086"
 			(at 118.11 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -16311,7 +16380,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 118.11 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -16328,7 +16397,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0110")
+					(reference "#GND086")
 					(unit 1)
 				)
 			)
@@ -16345,7 +16414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63c96fe0-0f84-49f3-9f9a-70b3567cb850")
-		(property "Reference" "#GND0125"
+		(property "Reference" "#GND0101"
 			(at 217.17 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16389,7 +16458,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 217.17 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16406,7 +16475,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0125")
+					(reference "#GND0101")
 					(unit 1)
 				)
 			)
@@ -16423,7 +16492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63e812f0-14d9-4b14-a28f-cb92e4694d06")
-		(property "Reference" "#GND0129"
+		(property "Reference" "#GND0105"
 			(at 229.87 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -16467,7 +16536,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 229.87 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -16484,7 +16553,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0129")
+					(reference "#GND0105")
 					(unit 1)
 				)
 			)
@@ -16502,7 +16571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64575697-e8e4-46e0-8a6c-33929527cc75")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR049"
 			(at 22.86 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -16562,14 +16631,14 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#PWR053")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_NFET-DUAL-COMMON-SOURCE-QS5K2")
+		(lib_id "pcbgolf:AON2812")
 		(at 307.34 153.67 0)
 		(unit 1)
 		(body_style 1)
@@ -16590,7 +16659,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "NFET-DUAL-COMMON-SOURCE-QS5K2"
+		(property "Value" "AON2812"
 			(at 307.34 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -16601,7 +16670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-5"
+		(property "Footprint" "pcbgolf:AON2812_DFN2x2A_6L_EP2_S"
 			(at 307.34 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -16612,7 +16681,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON2812.pdf"
 			(at 307.34 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -16634,7 +16703,7 @@
 				)
 			)
 		)
-		(property "MPN" "QS5K2TR"
+		(property "MPN" "AON2812"
 			(at 307.34 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -16646,20 +16715,23 @@
 				(justify left bottom)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "3fcb59eb-4386-48d5-ab11-5b3e48b3fb91")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "e3a66085-d067-48a6-81e7-9ee46dadf87f")
 		)
-		(pin "3"
+		(pin "5"
 			(uuid "9f9118eb-2d1b-4844-a351-64b41798cf79")
 		)
-		(pin "4"
+		(pin "3"
 			(uuid "00bf99ad-e0e4-4276-b74c-d8abbf9e358d")
 		)
-		(pin "5"
+		(pin "6"
 			(uuid "29bfd5c8-b79d-43c5-b422-4bade20c8ea1")
+		)
+(pin "4"
+			(uuid "99032f6e-00bd-481e-a460-0647d743dfcf")
 		)
 		(instances
 			(project "pcbgolf"
@@ -16681,7 +16753,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6526555f-0d0f-4ff6-874f-4bea5b97b32e")
-		(property "Reference" "R74"
+		(property "Reference" "R65"
 			(at 119.6086 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16757,7 +16829,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R74")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -16774,7 +16846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "662b6e12-ac45-429f-b46e-855359ea78f5")
-		(property "Reference" "R111"
+		(property "Reference" "R102"
 			(at 318.262 136.4234 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16850,7 +16922,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R111")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -16867,7 +16939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66bf6dfa-ea06-42c7-9509-fc80727f402f")
-		(property "Reference" "R84"
+		(property "Reference" "R75"
 			(at 235.712 78.0034 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16943,7 +17015,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R84")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -16960,7 +17032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ce4c131-4a27-4e9f-b61e-8d70cdb81cc7")
-		(property "Reference" "#GND0140"
+		(property "Reference" "#GND0116"
 			(at 299.72 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -17004,7 +17076,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 299.72 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -17021,7 +17093,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0140")
+					(reference "#GND0116")
 					(unit 1)
 				)
 			)
@@ -17038,7 +17110,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70ddd9bb-1239-4e72-872d-a7f4bef9bc3a")
-		(property "Reference" "R124"
+		(property "Reference" "R115"
 			(at 328.93 159.7914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17114,7 +17186,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R124")
+					(reference "R115")
 					(unit 1)
 				)
 			)
@@ -17131,7 +17203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72ec2995-4bfa-41b4-afe2-9fb7d754665b")
-		(property "Reference" "#GND0131"
+		(property "Reference" "#GND0107"
 			(at 229.87 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -17175,7 +17247,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 229.87 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -17192,7 +17264,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0131")
+					(reference "#GND0107")
 					(unit 1)
 				)
 			)
@@ -17209,7 +17281,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7473c7b4-d553-41da-b44f-e49caa0c7e50")
-		(property "Reference" "#GND0120"
+		(property "Reference" "#GND096"
 			(at 214.63 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -17253,7 +17325,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 214.63 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -17270,14 +17342,14 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0120")
+					(reference "#GND096")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG")
+		(lib_id "pcbgolf:APTB1612ESGC-F01")
 		(at 224.79 24.13 270)
 		(unit 1)
 		(body_style 1)
@@ -17298,7 +17370,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "LED-CC-GREEN-RED-AM23ESG"
+		(property "Value" "APTB1612ESGC-F01"
 			(at 224.79 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -17309,7 +17381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-3"
+		(property "Footprint" "pcbgolf:Kingbright_APTB1612ESGC-F01"
 			(at 224.79 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -17320,7 +17392,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTB1612ESGC-F01.pdf"
 			(at 224.79 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -17342,7 +17414,7 @@
 				)
 			)
 		)
-		(property "MPN" "AM23ESGW"
+		(property "MPN" "APTB1612ESGC-F01"
 			(at 224.79 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -17354,14 +17426,17 @@
 				(justify left bottom)
 			)
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "2293b2f2-2325-40dc-bab1-fbbf93d08e71")
 		)
 		(pin "1"
 			(uuid "61526e06-91b5-4dff-8cb0-76484d127026")
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "b8a15bef-6a93-43c4-82db-1c88df5dbc67")
+		)
+(pin "4"
+			(uuid "cdc0b06f-5f14-4aed-90b5-bf1bcd590cf9")
 		)
 		(instances
 			(project "pcbgolf"
@@ -17383,7 +17458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77b1f17f-b64f-444f-9b03-8c620d3b107d")
-		(property "Reference" "R97"
+		(property "Reference" "R88"
 			(at 238.252 202.4634 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17459,7 +17534,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R97")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -17476,7 +17551,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7866112d-6f71-4598-98c7-45d5c6f6a4ca")
-		(property "Reference" "R70"
+		(property "Reference" "R61"
 			(at 95.0214 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17552,7 +17627,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R70")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -17569,7 +17644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c03e56f-c070-49ae-8777-2bc68b15172f")
-		(property "Reference" "R117"
+		(property "Reference" "R108"
 			(at 320.802 95.7834 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17645,7 +17720,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R117")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -17662,7 +17737,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c4165db-133c-436f-a155-fe74d911507e")
-		(property "Reference" "R103"
+		(property "Reference" "R94"
 			(at 298.45 106.4514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17738,7 +17813,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R103")
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -17755,7 +17830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "800295ae-d1af-413a-938f-d0f6dd72a9ba")
-		(property "Reference" "R120"
+		(property "Reference" "R111"
 			(at 320.548 197.3834 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17831,7 +17906,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R120")
+					(reference "R111")
 					(unit 1)
 				)
 			)
@@ -17849,7 +17924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "803e6822-c0f4-47df-a4ba-7b6c891a1d28")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR046"
 			(at 22.86 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -17909,7 +17984,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#PWR050")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -17926,7 +18001,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81091224-99d1-4bb5-9401-06e0c98b2277")
-		(property "Reference" "R66"
+		(property "Reference" "R57"
 			(at 46.7614 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18002,7 +18077,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R66")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -18019,7 +18094,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81606033-4ec1-47ab-864f-0dbda51493a6")
-		(property "Reference" "#GND0106"
+		(property "Reference" "#GND082"
 			(at 95.25 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -18063,7 +18138,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 95.25 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -18080,7 +18155,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0106")
+					(reference "#GND082")
 					(unit 1)
 				)
 			)
@@ -18097,7 +18172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82546703-e97b-43a1-ab23-26f23822b58a")
-		(property "Reference" "R125"
+		(property "Reference" "R116"
 			(at 328.93 213.1314 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18173,7 +18248,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R125")
+					(reference "R116")
 					(unit 1)
 				)
 			)
@@ -18190,7 +18265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83255f9d-99f1-41ac-b621-1bdb4eb712f3")
-		(property "Reference" "R94"
+		(property "Reference" "R85"
 			(at 237.998 144.0434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18266,7 +18341,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R94")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -18283,7 +18358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8647d012-d768-485b-b28b-7ceb1b6cbe17")
-		(property "Reference" "#GND0151"
+		(property "Reference" "#GND0127"
 			(at 327.66 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -18327,7 +18402,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 327.66 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -18344,7 +18419,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0151")
+					(reference "#GND0127")
 					(unit 1)
 				)
 			)
@@ -18361,7 +18436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "875abac6-1861-40fc-8f53-a7c376683d80")
-		(property "Reference" "R113"
+		(property "Reference" "R104"
 			(at 318.262 189.7634 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18437,7 +18512,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R113")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -18454,7 +18529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "876606bf-ae0e-46cf-90f6-a0e94a077dd6")
-		(property "Reference" "#GND0114"
+		(property "Reference" "#GND090"
 			(at 135.89 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -18498,7 +18573,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 135.89 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -18515,7 +18590,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0114")
+					(reference "#GND090")
 					(unit 1)
 				)
 			)
@@ -18532,7 +18607,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89ccbd0e-940d-48f3-94e5-e0e8cfd1070b")
-		(property "Reference" "R102"
+		(property "Reference" "R93"
 			(at 298.45 53.1114 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18608,7 +18683,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R102")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -18625,7 +18700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b4e95c4-88cd-4e6e-a54f-7593fc5b5010")
-		(property "Reference" "#GND098"
+		(property "Reference" "#GND074"
 			(at 46.99 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -18669,7 +18744,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 46.99 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -18686,7 +18761,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND098")
+					(reference "#GND074")
 					(unit 1)
 				)
 			)
@@ -18886,7 +18961,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e7ad7cd-647c-45c6-9b67-a32cb10ea430")
-		(property "Reference" "R122"
+		(property "Reference" "R113"
 			(at 328.93 53.1114 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18962,7 +19037,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R122")
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -18979,7 +19054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9009b66f-a3b7-457b-b65f-e7784317c9c5")
-		(property "Reference" "C53"
+		(property "Reference" "C38"
 			(at 24.384 206.629 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19055,7 +19130,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "C53")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -19072,7 +19147,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9123b881-79ee-4531-be63-cde7923bdab5")
-		(property "Reference" "#GND0103"
+		(property "Reference" "#GND079"
 			(at 87.63 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -19116,7 +19191,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 87.63 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -19133,7 +19208,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0103")
+					(reference "#GND079")
 					(unit 1)
 				)
 			)
@@ -19150,7 +19225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93c167d3-5f32-4ab9-b95e-a12e56083071")
-		(property "Reference" "R88"
+		(property "Reference" "R79"
 			(at 235.712 184.6834 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19226,7 +19301,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R88")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -19243,7 +19318,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93e88e31-2c03-4e47-af89-f51ffc0d2ccf")
-		(property "Reference" "#GND0116"
+		(property "Reference" "#GND092"
 			(at 176.53 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -19287,7 +19362,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 176.53 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -19304,7 +19379,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0116")
+					(reference "#GND092")
 					(unit 1)
 				)
 			)
@@ -19321,7 +19396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93f5a4ca-7771-42cb-85b6-cb37a0dfe27e")
-		(property "Reference" "#GND0135"
+		(property "Reference" "#GND0111"
 			(at 245.11 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -19365,7 +19440,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 245.11 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -19382,7 +19457,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0135")
+					(reference "#GND0111")
 					(unit 1)
 				)
 			)
@@ -19399,7 +19474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94ce5cd3-e038-448d-ada7-0ea848c1a834")
-		(property "Reference" "R95"
+		(property "Reference" "R86"
 			(at 238.252 149.1234 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19475,7 +19550,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R95")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -19492,7 +19567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "974641ce-feb7-436c-89f2-06abcdb6490e")
-		(property "Reference" "#GND0128"
+		(property "Reference" "#GND0104"
 			(at 229.87 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -19536,7 +19611,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 229.87 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -19553,7 +19628,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0128")
+					(reference "#GND0104")
 					(unit 1)
 				)
 			)
@@ -19570,7 +19645,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98a619a7-c2c9-4ba2-847d-976fb755e565")
-		(property "Reference" "#GND0144"
+		(property "Reference" "#GND0120"
 			(at 312.42 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -19614,7 +19689,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 312.42 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -19631,7 +19706,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0144")
+					(reference "#GND0120")
 					(unit 1)
 				)
 			)
@@ -19648,7 +19723,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98fa0328-6b4b-4433-ab3b-83d359858f4b")
-		(property "Reference" "C52"
+		(property "Reference" "C37"
 			(at 24.384 153.289 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19724,7 +19799,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "C52")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -19741,7 +19816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9912dd96-3aa3-423a-8422-a93069098d1d")
-		(property "Reference" "R67"
+		(property "Reference" "R58"
 			(at 46.7614 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19817,7 +19892,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R67")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -19834,7 +19909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99c3bb60-60b4-42b6-bd2b-afd4dec80bd9")
-		(property "Reference" "R105"
+		(property "Reference" "R96"
 			(at 298.45 213.1314 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19910,7 +19985,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R105")
+					(reference "R96")
 					(unit 1)
 				)
 			)
@@ -19927,7 +20002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bbc7178-9cc0-467c-a252-3ef330502de4")
-		(property "Reference" "#GND095"
+		(property "Reference" "#GND071"
 			(at 44.45 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -19971,7 +20046,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 44.45 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -19988,7 +20063,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND095")
+					(reference "#GND071")
 					(unit 1)
 				)
 			)
@@ -20005,7 +20080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c0005ae-3f55-43bb-a311-ce3d5df96cfb")
-		(property "Reference" "#GND0138"
+		(property "Reference" "#GND0114"
 			(at 297.18 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -20049,7 +20124,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 297.18 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -20066,7 +20141,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0138")
+					(reference "#GND0114")
 					(unit 1)
 				)
 			)
@@ -20083,7 +20158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cbe4ec6-20cc-48d7-a034-f0a1d55ab285")
-		(property "Reference" "#GND0147"
+		(property "Reference" "#GND0123"
 			(at 312.42 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -20127,7 +20202,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 312.42 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -20144,14 +20219,14 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0147")
+					(reference "#GND0123")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG")
+		(lib_id "pcbgolf:APTB1612ESGC-F01")
 		(at 307.34 130.81 270)
 		(unit 1)
 		(body_style 1)
@@ -20172,7 +20247,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "LED-CC-GREEN-RED-AM23ESG"
+		(property "Value" "APTB1612ESGC-F01"
 			(at 307.34 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -20183,7 +20258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-3"
+		(property "Footprint" "pcbgolf:Kingbright_APTB1612ESGC-F01"
 			(at 307.34 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -20194,7 +20269,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTB1612ESGC-F01.pdf"
 			(at 307.34 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -20216,7 +20291,7 @@
 				)
 			)
 		)
-		(property "MPN" "AM23ESGW"
+		(property "MPN" "APTB1612ESGC-F01"
 			(at 307.34 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -20231,11 +20306,14 @@
 		(pin "1"
 			(uuid "61206023-a24d-4c4f-b7a5-2943b67ed41a")
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "ebedc225-20c0-4f22-a190-89b168964c3b")
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "aa794b85-132d-4609-8c69-649b15068f66")
+		)
+(pin "4"
+			(uuid "d2284866-87eb-400b-8a13-a7908b16713f")
 		)
 		(instances
 			(project "pcbgolf"
@@ -20257,7 +20335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3bf6b12-15cd-40f5-bdcf-8dda0356c330")
-		(property "Reference" "C50"
+		(property "Reference" "C35"
 			(at 24.384 46.609 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20333,7 +20411,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "C50")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -20350,7 +20428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3cbc407-03b2-466c-a00a-7126a25cff18")
-		(property "Reference" "R82"
+		(property "Reference" "R73"
 			(at 235.712 24.6634 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20426,14 +20504,14 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R82")
+					(reference "R73")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(lib_id "pcbgolf:APG015ZGC_S-5MAV")
 		(at 118.11 207.01 0)
 		(unit 1)
 		(body_style 1)
@@ -20454,10 +20532,11 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CH1_PWR"
+		(property "Value" "APG015ZGC/S-5MAV"
 			(at 120.523 210.312 90)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -20465,7 +20544,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:CHIPLED"
+		(property "Footprint" "pcbgolf:Kingbright_APG015_01005"
 			(at 118.11 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -20476,7 +20555,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APG015ZGC-S-5MAV.pdf"
 			(at 118.11 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -20498,7 +20577,7 @@
 				)
 			)
 		)
-		(property "MPN" "LG R971-KN-1"
+		(property "MPN" "APG015ZGC/S-5MAV"
 			(at 118.11 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -20510,10 +20589,10 @@
 				(justify left bottom)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "a0d1f512-0d7f-4d0e-ac16-0c319ff15786")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "c9c1858f-1ae6-48a8-9889-9eb96215138a")
 		)
 		(instances
@@ -20536,7 +20615,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9695af4-45de-4280-b828-d38dd244146c")
-		(property "Reference" "#GND0137"
+		(property "Reference" "#GND0113"
 			(at 297.18 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -20580,7 +20659,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 297.18 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -20597,7 +20676,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0137")
+					(reference "#GND0113")
 					(unit 1)
 				)
 			)
@@ -20615,7 +20694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aac6f94a-0a09-4eaf-a092-f4b5eb67c0f1")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR048"
 			(at 22.86 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -20675,7 +20754,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#PWR052")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -20692,7 +20771,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab60a780-d9ac-44e4-aea3-a4a58c1367aa")
-		(property "Reference" "R78"
+		(property "Reference" "R69"
 			(at 215.9 53.1114 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20768,7 +20847,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R78")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -20785,7 +20864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ace5f64c-9221-4335-95fb-3c0d4592edf8")
-		(property "Reference" "R76"
+		(property "Reference" "R67"
 			(at 119.6086 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20861,7 +20940,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R76")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -20878,7 +20957,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b04f5393-457c-47fa-bcba-98c86e48a8d2")
-		(property "Reference" "#GND0150"
+		(property "Reference" "#GND0126"
 			(at 327.66 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -20922,7 +21001,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 327.66 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -20939,7 +21018,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0150")
+					(reference "#GND0126")
 					(unit 1)
 				)
 			)
@@ -20956,7 +21035,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b147cd1c-22b2-46c0-8b2f-15ce5b033462")
-		(property "Reference" "R72"
+		(property "Reference" "R63"
 			(at 95.0214 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21032,7 +21111,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R72")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -21049,7 +21128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b665a182-a5f2-470f-9692-9dc6a881bc46")
-		(property "Reference" "#GND0139"
+		(property "Reference" "#GND0115"
 			(at 297.18 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -21093,7 +21172,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 297.18 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -21110,14 +21189,14 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0139")
+					(reference "#GND0115")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(lib_id "pcbgolf:APG015ZGC_S-5MAV")
 		(at 118.11 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -21138,10 +21217,11 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CH1_PWR"
+		(property "Value" "APG015ZGC/S-5MAV"
 			(at 120.523 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -21149,7 +21229,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:CHIPLED"
+		(property "Footprint" "pcbgolf:Kingbright_APG015_01005"
 			(at 118.11 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -21160,7 +21240,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APG015ZGC-S-5MAV.pdf"
 			(at 118.11 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -21182,7 +21262,7 @@
 				)
 			)
 		)
-		(property "MPN" "LG R971-KN-1"
+		(property "MPN" "APG015ZGC/S-5MAV"
 			(at 118.11 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -21194,10 +21274,10 @@
 				(justify left bottom)
 			)
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "9b310da7-b511-4446-bcc4-e2589577afa5")
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "a3d33b85-26e3-4eaf-bed8-4e953b060958")
 		)
 		(instances
@@ -21220,7 +21300,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b82adcd4-fa8c-4d44-bc35-b34ad586f699")
-		(property "Reference" "R87"
+		(property "Reference" "R78"
 			(at 235.712 136.4234 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21296,7 +21376,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R87")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -21313,7 +21393,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8d734e9-f25f-4181-bd4e-388fa6c1c4ac")
-		(property "Reference" "#GND0102"
+		(property "Reference" "#GND078"
 			(at 87.63 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -21357,7 +21437,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 87.63 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -21374,14 +21454,14 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0102")
+					(reference "#GND078")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG")
+		(lib_id "pcbgolf:APTB1612ESGC-F01")
 		(at 224.79 130.81 270)
 		(unit 1)
 		(body_style 1)
@@ -21402,7 +21482,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "LED-CC-GREEN-RED-AM23ESG"
+		(property "Value" "APTB1612ESGC-F01"
 			(at 224.79 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -21413,7 +21493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-3"
+		(property "Footprint" "pcbgolf:Kingbright_APTB1612ESGC-F01"
 			(at 224.79 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -21424,7 +21504,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTB1612ESGC-F01.pdf"
 			(at 224.79 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -21446,7 +21526,7 @@
 				)
 			)
 		)
-		(property "MPN" "AM23ESGW"
+		(property "MPN" "APTB1612ESGC-F01"
 			(at 224.79 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -21461,11 +21541,14 @@
 		(pin "1"
 			(uuid "2a268137-e5d6-4e60-949a-999b4ec5233e")
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "2644cc5e-f969-4dfc-bbc1-352eed301a94")
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "1d44585c-cff1-4b35-9362-f252d463ce4b")
+		)
+(pin "4"
+			(uuid "14410a9d-775e-4ebd-92dd-50aa604df560")
 		)
 		(instances
 			(project "pcbgolf"
@@ -21477,7 +21560,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_NFET-DUAL-COMMON-SOURCE-QS5K2")
+		(lib_id "pcbgolf:AON2812")
 		(at 224.79 207.01 0)
 		(unit 1)
 		(body_style 1)
@@ -21498,7 +21581,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "NFET-DUAL-COMMON-SOURCE-QS5K2"
+		(property "Value" "AON2812"
 			(at 224.79 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -21509,7 +21592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-5"
+		(property "Footprint" "pcbgolf:AON2812_DFN2x2A_6L_EP2_S"
 			(at 224.79 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -21520,7 +21603,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON2812.pdf"
 			(at 224.79 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -21542,7 +21625,7 @@
 				)
 			)
 		)
-		(property "MPN" "QS5K2TR"
+		(property "MPN" "AON2812"
 			(at 224.79 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -21554,20 +21637,23 @@
 				(justify left bottom)
 			)
 		)
-		(pin "4"
+		(pin "3"
 			(uuid "3a418b08-f7dd-4ca8-be08-15f12f00afe6")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "5dd7638f-3363-4a1a-8040-6b898961bf79")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "021ffe37-c8a3-498b-ae8a-9a4232325094")
 		)
-		(pin "3"
+		(pin "5"
 			(uuid "b58347a6-ac07-414a-a0d6-877880b1602b")
 		)
-		(pin "5"
+		(pin "6"
 			(uuid "be206c38-16f0-40b2-949f-e024829b7918")
+		)
+(pin "4"
+			(uuid "b4ccc554-22e3-4265-9a93-d6d9c2f30296")
 		)
 		(instances
 			(project "pcbgolf"
@@ -21589,7 +21675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc9091b8-8f9a-4d97-bd99-98e08064fdc2")
-		(property "Reference" "#GND089"
+		(property "Reference" "#GND065"
 			(at 22.86 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -21633,7 +21719,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 22.86 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -21650,7 +21736,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND089")
+					(reference "#GND065")
 					(unit 1)
 				)
 			)
@@ -21667,7 +21753,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1577778-5b03-4116-ad6c-2356b8c14ea3")
-		(property "Reference" "#GND091"
+		(property "Reference" "#GND067"
 			(at 22.86 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -21711,7 +21797,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 22.86 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -21728,7 +21814,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND091")
+					(reference "#GND067")
 					(unit 1)
 				)
 			)
@@ -21745,7 +21831,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1a21036-c5d3-45f1-ab32-a106bb14092a")
-		(property "Reference" "#GND0111"
+		(property "Reference" "#GND087"
 			(at 118.11 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -21789,7 +21875,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 118.11 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -21806,7 +21892,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0111")
+					(reference "#GND087")
 					(unit 1)
 				)
 			)
@@ -21823,7 +21909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2050acc-28c6-4e8d-89d3-6f274aad1caf")
-		(property "Reference" "R107"
+		(property "Reference" "R98"
 			(at 318.262 29.7434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21899,7 +21985,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R107")
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -21916,7 +22002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3507baf-93a8-4b68-95e4-3a083af975e5")
-		(property "Reference" "#GND099"
+		(property "Reference" "#GND075"
 			(at 46.99 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -21960,7 +22046,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 46.99 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -21977,7 +22063,86 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND099")
+					(reference "#GND075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pcbgolf:comma.ai_11112255_GND")
+		(at 194.31 16.51 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c4426a65-cce4-41fd-b459-e7d82232f2e3")
+		(property "Reference" "#GND0100"
+			(at 194.31 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.056 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c31da858-8784-4125-899f-455b167b8247")
+		)
+		(instances
+			(project "pcbgolf"
+				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
+					(reference "#GND0100")
 					(unit 1)
 				)
 			)
@@ -21994,7 +22159,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c98eca24-5173-47d8-ab47-6bf9d2dd78d5")
-		(property "Reference" "R90"
+		(property "Reference" "R81"
 			(at 237.998 37.3634 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22070,7 +22235,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R90")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -22087,7 +22252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb24724f-5af1-4239-bc3a-4f30b6dc312b")
-		(property "Reference" "#GND0146"
+		(property "Reference" "#GND0122"
 			(at 312.42 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -22131,7 +22296,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 312.42 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -22148,85 +22313,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0146")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_GND")
-		(at 217.17 24.13 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cc7f4c24-d9af-4a4b-b488-ad02a5d9c289")
-		(property "Reference" "#GND0124"
-			(at 217.17 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 216.916 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cafa09e6-607a-40b8-8587-7de2f6992026")
-		)
-		(instances
-			(project "pcbgolf"
-				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0124")
+					(reference "#GND0122")
 					(unit 1)
 				)
 			)
@@ -22243,7 +22330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd05a5ad-92a9-4a63-bc8c-f3eafe5fed08")
-		(property "Reference" "#GND0149"
+		(property "Reference" "#GND0125"
 			(at 327.66 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -22287,7 +22374,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 327.66 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -22304,7 +22391,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0149")
+					(reference "#GND0125")
 					(unit 1)
 				)
 			)
@@ -22321,7 +22408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf0ee005-badb-43f0-a9f8-93869709d64a")
-		(property "Reference" "R79"
+		(property "Reference" "R70"
 			(at 215.9 106.4514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22397,14 +22484,14 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R79")
+					(reference "R70")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG")
+		(lib_id "pcbgolf:APTB1612ESGC-F01")
 		(at 307.34 184.15 270)
 		(unit 1)
 		(body_style 1)
@@ -22425,7 +22512,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "LED-CC-GREEN-RED-AM23ESG"
+		(property "Value" "APTB1612ESGC-F01"
 			(at 307.34 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -22436,7 +22523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-3"
+		(property "Footprint" "pcbgolf:Kingbright_APTB1612ESGC-F01"
 			(at 307.34 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -22447,7 +22534,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTB1612ESGC-F01.pdf"
 			(at 307.34 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -22469,7 +22556,7 @@
 				)
 			)
 		)
-		(property "MPN" "AM23ESGW"
+		(property "MPN" "APTB1612ESGC-F01"
 			(at 307.34 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -22481,14 +22568,17 @@
 				(justify left bottom)
 			)
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "ad69c6a9-709f-4d02-844a-84ba092dae22")
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "8c16d20c-63d9-4345-b098-97d4d009acfe")
 		)
 		(pin "1"
 			(uuid "e420ba26-e066-4508-8734-5f7f2adc4507")
+		)
+(pin "4"
+			(uuid "426c8230-3a0d-4963-83cd-92b45bbb78b6")
 		)
 		(instances
 			(project "pcbgolf"
@@ -22510,7 +22600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d13b40b9-b492-458e-997a-b6306450adc2")
-		(property "Reference" "#GND0130"
+		(property "Reference" "#GND0106"
 			(at 229.87 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -22554,7 +22644,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 229.87 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -22571,7 +22661,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0130")
+					(reference "#GND0106")
 					(unit 1)
 				)
 			)
@@ -22588,7 +22678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d336be72-09a1-4d7f-ba5d-db03bd83b228")
-		(property "Reference" "#GND0122"
+		(property "Reference" "#GND098"
 			(at 214.63 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -22632,7 +22722,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 214.63 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -22649,7 +22739,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0122")
+					(reference "#GND098")
 					(unit 1)
 				)
 			)
@@ -22666,7 +22756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3533496-85a9-4b9d-b854-6b8bd4decd04")
-		(property "Reference" "#GND0145"
+		(property "Reference" "#GND0121"
 			(at 312.42 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -22710,7 +22800,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 312.42 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -22727,7 +22817,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0145")
+					(reference "#GND0121")
 					(unit 1)
 				)
 			)
@@ -22744,7 +22834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d370f52b-926c-448a-8f4b-98c12cadee98")
-		(property "Reference" "R73"
+		(property "Reference" "R64"
 			(at 95.0214 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22820,7 +22910,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R73")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -22837,7 +22927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3b65bc9-e60a-44e1-80f2-d95108d35436")
-		(property "Reference" "#GND096"
+		(property "Reference" "#GND072"
 			(at 46.99 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -22881,7 +22971,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 46.99 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -22898,7 +22988,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND096")
+					(reference "#GND072")
 					(unit 1)
 				)
 			)
@@ -22915,7 +23005,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d435943c-4693-4cee-8c98-de5197f643a8")
-		(property "Reference" "R104"
+		(property "Reference" "R95"
 			(at 298.45 159.7914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22991,7 +23081,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R104")
+					(reference "R95")
 					(unit 1)
 				)
 			)
@@ -23008,7 +23098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d81cd032-bd41-40a8-9c11-ec981ac4787d")
-		(property "Reference" "#GND0100"
+		(property "Reference" "#GND076"
 			(at 87.63 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -23052,7 +23142,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 87.63 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -23069,7 +23159,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0100")
+					(reference "#GND076")
 					(unit 1)
 				)
 			)
@@ -23086,7 +23176,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8397ea9-7473-4e6b-ae05-63b239dcc69d")
-		(property "Reference" "#GND0148"
+		(property "Reference" "#GND0124"
 			(at 327.66 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -23130,7 +23220,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 327.66 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -23147,7 +23237,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0148")
+					(reference "#GND0124")
 					(unit 1)
 				)
 			)
@@ -23164,7 +23254,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d92fc4c7-d41e-4e2b-9440-1d8b5c5af62a")
-		(property "Reference" "#GND0126"
+		(property "Reference" "#GND0102"
 			(at 217.17 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -23208,7 +23298,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 217.17 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -23225,7 +23315,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0126")
+					(reference "#GND0102")
 					(unit 1)
 				)
 			)
@@ -23242,7 +23332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da7256b5-da12-4e91-bd4d-563689041106")
-		(property "Reference" "R91"
+		(property "Reference" "R82"
 			(at 238.252 42.4434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23318,14 +23408,15 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R91")
+					(reference "R82")
 					(unit 1)
 				)
 			)
 		)
 	)
+	
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_NFET-DUAL-COMMON-SOURCE-QS5K2")
+		(lib_id "pcbgolf:AON2812")
 		(at 224.79 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -23346,7 +23437,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "NFET-DUAL-COMMON-SOURCE-QS5K2"
+		(property "Value" "AON2812"
 			(at 224.79 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -23357,7 +23448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-5"
+		(property "Footprint" "pcbgolf:AON2812_DFN2x2A_6L_EP2_S"
 			(at 224.79 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -23368,7 +23459,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON2812.pdf"
 			(at 224.79 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -23390,7 +23481,7 @@
 				)
 			)
 		)
-		(property "MPN" "QS5K2TR"
+		(property "MPN" "AON2812"
 			(at 224.79 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -23402,20 +23493,23 @@
 				(justify left bottom)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "05e1d400-af86-4f30-bde1-db54431b9cd8")
 		)
-		(pin "4"
+		(pin "3"
 			(uuid "d11e30f7-aad7-4529-9be6-473cd63caced")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "51fae98e-b56b-48ba-92dd-d2ce1139f56a")
 		)
-		(pin "3"
+		(pin "5"
 			(uuid "ad3c14b7-0ab4-4463-aa8f-e8225c333f50")
 		)
-		(pin "5"
+		(pin "6"
 			(uuid "f913e45c-c36f-45d9-a9ae-74497be1fc58")
+		)
+(pin "4"
+			(uuid "94de2f45-80f5-4171-925f-db68b22b9744")
 		)
 		(instances
 			(project "pcbgolf"
@@ -23437,7 +23531,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1c2d92f-0511-45e6-bba7-4ba1f1480c78")
-		(property "Reference" "R81"
+		(property "Reference" "R72"
 			(at 215.9 213.1314 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23513,7 +23607,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R81")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -23530,7 +23624,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1caf5c8-9f40-4a7d-88fd-099ab664c72f")
-		(property "Reference" "#GND0105"
+		(property "Reference" "#GND081"
 			(at 95.25 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -23574,7 +23668,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 95.25 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -23591,7 +23685,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0105")
+					(reference "#GND081")
 					(unit 1)
 				)
 			)
@@ -23608,7 +23702,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e90ad7bb-70f0-40f4-9d6e-92cafab9bd64")
-		(property "Reference" "#GND093"
+		(property "Reference" "#GND069"
 			(at 44.45 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -23652,7 +23746,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 44.45 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -23669,7 +23763,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND093")
+					(reference "#GND069")
 					(unit 1)
 				)
 			)
@@ -23686,7 +23780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9162cea-1a6a-4a51-a492-c7958a04a698")
-		(property "Reference" "R119"
+		(property "Reference" "R110"
 			(at 320.802 149.1234 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23762,7 +23856,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R119")
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -23779,7 +23873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb420d3c-7fad-481c-bf13-d0602fc05289")
-		(property "Reference" "R86"
+		(property "Reference" "R77"
 			(at 235.712 131.3434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23855,7 +23949,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R86")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -23872,7 +23966,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb557264-3bd1-4e5b-8021-f7aeb73bc039")
-		(property "Reference" "R108"
+		(property "Reference" "R99"
 			(at 318.262 78.0034 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23948,7 +24042,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R108")
+					(reference "R99")
 					(unit 1)
 				)
 			)
@@ -23965,7 +24059,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb6a6c42-a7e5-4f49-ae18-6ca982cda05c")
-		(property "Reference" "R121"
+		(property "Reference" "R112"
 			(at 320.802 202.4634 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24041,7 +24135,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R121")
+					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -24058,7 +24152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef7619ce-6fb7-4e52-8f43-64315a383dac")
-		(property "Reference" "U16"
+		(property "Reference" "U20"
 			(at 54.61 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24191,7 +24285,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "U16")
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -24381,7 +24475,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-0805")
+		(lib_id "pcbgolf:APG015ZGC_S-5MAV")
 		(at 118.11 46.99 0)
 		(unit 1)
 		(body_style 1)
@@ -24402,10 +24496,11 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CH1_PWR"
+		(property "Value" "APG015ZGC/S-5MAV"
 			(at 120.523 50.292 90)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -24413,7 +24508,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "pcbgolf:CHIPLED"
+		(property "Footprint" "pcbgolf:Kingbright_APG015_01005"
 			(at 118.11 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -24424,7 +24519,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APG015ZGC-S-5MAV.pdf"
 			(at 118.11 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -24446,7 +24541,7 @@
 				)
 			)
 		)
-		(property "MPN" "LG R971-KN-1"
+		(property "MPN" "APG015ZGC/S-5MAV"
 			(at 118.11 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -24458,10 +24553,10 @@
 				(justify left bottom)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "2757eb38-d729-4b19-8bf7-4fb0281c7d4e")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "9a8d1819-9027-4e23-a321-0eb0e4991e46")
 		)
 		(instances
@@ -24484,7 +24579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f21ac0a8-98e0-47be-967f-c36d9e68f37e")
-		(property "Reference" "R85"
+		(property "Reference" "R76"
 			(at 235.712 83.0834 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24560,7 +24655,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R85")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -24577,7 +24672,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5785cc3-abfe-42d2-b070-86d40f71bc47")
-		(property "Reference" "#GND0143"
+		(property "Reference" "#GND0119"
 			(at 299.72 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -24621,7 +24716,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 299.72 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -24638,7 +24733,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0143")
+					(reference "#GND0119")
 					(unit 1)
 				)
 			)
@@ -24655,7 +24750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9a474d6-883b-4d0c-bbc1-b7f5548e30d1")
-		(property "Reference" "R118"
+		(property "Reference" "R109"
 			(at 320.548 144.0434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24731,7 +24826,7 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R118")
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -24748,7 +24843,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb4a78ea-2ec1-44b2-923c-b9d075d4a9a1")
-		(property "Reference" "R83"
+		(property "Reference" "R74"
 			(at 235.712 29.7434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24824,14 +24919,14 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R83")
+					(reference "R74")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_NFET-DUAL-COMMON-SOURCE-QS5K2")
+		(lib_id "pcbgolf:AON2812")
 		(at 224.79 153.67 0)
 		(unit 1)
 		(body_style 1)
@@ -24852,7 +24947,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "NFET-DUAL-COMMON-SOURCE-QS5K2"
+		(property "Value" "AON2812"
 			(at 224.79 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -24863,7 +24958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-5"
+		(property "Footprint" "pcbgolf:AON2812_DFN2x2A_6L_EP2_S"
 			(at 224.79 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -24874,7 +24969,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON2812.pdf"
 			(at 224.79 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -24896,7 +24991,7 @@
 				)
 			)
 		)
-		(property "MPN" "QS5K2TR"
+		(property "MPN" "AON2812"
 			(at 224.79 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -24908,20 +25003,23 @@
 				(justify left bottom)
 			)
 		)
-		(pin "4"
+		(pin "3"
 			(uuid "d128a28e-3c40-49cf-b6f7-4b6501eaadeb")
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "af9ae72a-258f-44e8-a0f6-cc524e6eee3e")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "3d06d97a-8a70-4b2e-8e4a-0ee1b5dc4ef2")
 		)
-		(pin "3"
+		(pin "5"
 			(uuid "4335db70-4ef6-4786-8637-162dedda1303")
 		)
-		(pin "5"
+		(pin "6"
 			(uuid "f86c2c6f-4dcd-4baf-80e1-5458fd950b7d")
+		)
+(pin "4"
+			(uuid "5ea8112b-f3bf-43bc-8d4c-e30796045161")
 		)
 		(instances
 			(project "pcbgolf"
@@ -24943,7 +25041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc73ab7b-61fa-4294-adee-5fbf65816956")
-		(property "Reference" "#GND0121"
+		(property "Reference" "#GND097"
 			(at 214.63 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -24987,7 +25085,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
 			(at 214.63 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -25004,14 +25102,14 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "#GND0121")
+					(reference "#GND097")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "pcbgolf:comma.ai_11112255_LED-CC-GREEN-RED-AM23ESG")
+		(lib_id "pcbgolf:APTB1612ESGC-F01")
 		(at 224.79 184.15 270)
 		(unit 1)
 		(body_style 1)
@@ -25032,7 +25130,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "LED-CC-GREEN-RED-AM23ESG"
+		(property "Value" "APTB1612ESGC-F01"
 			(at 224.79 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -25043,7 +25141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pcbgolf:SOT23-3"
+		(property "Footprint" "pcbgolf:Kingbright_APTB1612ESGC-F01"
 			(at 224.79 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -25054,7 +25152,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTB1612ESGC-F01.pdf"
 			(at 224.79 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -25076,7 +25174,7 @@
 				)
 			)
 		)
-		(property "MPN" "AM23ESGW"
+		(property "MPN" "APTB1612ESGC-F01"
 			(at 224.79 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -25088,14 +25186,17 @@
 				(justify left bottom)
 			)
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "9e2c4349-26a3-40ea-8a45-8a384c04aa3a")
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "2da7e3b9-0587-4d0e-8cb7-f15c23c4218c")
 		)
 		(pin "1"
 			(uuid "d107a9fa-f1d6-4d5a-ace8-73d16fa6510a")
+		)
+(pin "4"
+			(uuid "e858b76d-9b32-4259-b702-5223eba80bc9")
 		)
 		(instances
 			(project "pcbgolf"
@@ -25117,7 +25218,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fef6ae5f-ecf0-4fb4-b724-a25d6a0e040a")
-		(property "Reference" "R92"
+		(property "Reference" "R83"
 			(at 237.998 90.7034 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25193,13 +25294,32 @@
 		(instances
 			(project "pcbgolf"
 				(path "/4ad19786-2fb8-46fb-8362-af47f4d986ee"
-					(reference "R92")
+					(reference "R83")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet_instances
+	
+(wire (pts (xy 229.87 54.61) (xy 232.41 54.61)) (stroke (width 0) (type default)) (uuid "1b7e163c-0df6-41f3-bde7-406bb9271417"))
+(wire (pts (xy 312.42 214.63) (xy 314.96 214.63)) (stroke (width 0) (type default)) (uuid "fa990f4b-aff8-4932-8a93-91dc4753b61b"))
+(wire (pts (xy 312.42 107.95) (xy 314.96 107.95)) (stroke (width 0) (type default)) (uuid "941462e9-08d1-4c8b-a61b-9f86e98294a7"))
+(wire (pts (xy 312.42 54.61) (xy 314.96 54.61)) (stroke (width 0) (type default)) (uuid "8a011d20-af42-4a4f-a0bd-aefb8133a6d5"))
+(wire (pts (xy 312.42 161.29) (xy 314.96 161.29)) (stroke (width 0) (type default)) (uuid "4de4abf8-f099-4545-b981-5a0978a97d18"))
+(wire (pts (xy 229.87 214.63) (xy 232.41 214.63)) (stroke (width 0) (type default)) (uuid "84ca381c-f06c-4edc-9676-e2930a54fc95"))
+(wire (pts (xy 229.87 107.95) (xy 232.41 107.95)) (stroke (width 0) (type default)) (uuid "84b9bea6-a282-4681-bcdc-c69f81f7bc05"))
+(wire (pts (xy 229.87 161.29) (xy 232.41 161.29)) (stroke (width 0) (type default)) (uuid "09d7ea8c-0959-49d1-9cb2-28d2555ae173"))
+
+(wire (pts (xy 304.8 21.59) (xy 304.8 24.13)) (stroke (width 0) (type default)) (uuid "9abc565d-e76c-4f41-a558-190f4eabc6a6"))
+(wire (pts (xy 304.8 74.93) (xy 304.8 77.47)) (stroke (width 0) (type default)) (uuid "e531a22b-1cd1-428c-ba1c-76b0325c6927"))
+(wire (pts (xy 222.25 74.93) (xy 222.25 77.47)) (stroke (width 0) (type default)) (uuid "7eaedded-141f-489e-9349-a128f1d02a2d"))
+(wire (pts (xy 222.25 21.59) (xy 222.25 24.13)) (stroke (width 0) (type default)) (uuid "79ccaf5e-be33-4c73-af87-4877c711e55f"))
+(global_label "GND" (shape bidirectional) (at 219.71 24.13 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right)) (uuid "19ea5a1d-408b-4772-9a63-a04fb3b784a0"))
+(wire (pts (xy 304.8 128.27) (xy 304.8 130.81)) (stroke (width 0) (type default)) (uuid "054a6520-b8a9-4cb4-a8c1-c5203c8624ca"))
+(wire (pts (xy 222.25 128.27) (xy 222.25 130.81)) (stroke (width 0) (type default)) (uuid "0a9bb2ff-238b-47e1-8b9c-7ac21275d1e0"))
+(wire (pts (xy 304.8 181.61) (xy 304.8 184.15)) (stroke (width 0) (type default)) (uuid "80b8ce71-4da2-465e-ae88-cd9f442bcd5b"))
+(wire (pts (xy 222.25 181.61) (xy 222.25 184.15)) (stroke (width 0) (type default)) (uuid "9afeeabc-0072-4948-89da-a58436f173af"))
+(sheet_instances
 		(path "/"
 			(page "5")
 		)

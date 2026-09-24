@@ -17,3 +17,6 @@ fp-info-cache
 *.swo
 .DS_Store
 Thumbs.db
+
+# Generated checks, backups, and local Python dependencies
+/build/
